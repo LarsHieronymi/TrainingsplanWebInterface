@@ -1,0 +1,50 @@
+header, nav, aside, section, article, main, footer {
+    display: block;
+}
+
+#wrapper {
+    width: 1280px;
+    height: auto;
+    background: #FBD4D4;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #D09898;
+    margin-bottom: 5px;
+}
+
+nav {
+    width: 100%;
+    height: auto;
+    background-color: #722929;
+    
+}
+
+aside {
+    width: 30%;
+    height: 200px;
+    background-color: #AD6B6B;  
+    float: left;  
+    margin-right: 5px;
+}
+
+main {
+    width: 65%;
+    height: 520px;
+    background-color: #AD6B6B;
+    float: right;
+}
+
+footer {
+    width: 99.4%;
+    height: auto;
+    font-size: 0.8em;
+    background-color: #8A4A4A;
+    padding: 0.3%;
+    margin-top: 5px;
+    clear: both;
+}
